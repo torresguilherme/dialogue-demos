@@ -1,0 +1,42 @@
+{
+	"/root/main/chaser":
+	{
+		"default":
+		{
+			"1":
+			{
+				"line": "Hi, look at this neat new dialogue I made"
+			},
+	
+			"2":
+			{
+				"line": "I finally managed to make this shit work",
+				"choices":
+				{
+					"1":
+					{
+						"line": "Good for you",
+						"response": 3
+					},
+					"2":
+					{
+						"line": "I don't care",
+						"response": 4
+					}
+				}
+			},
+	
+			"3":
+			{
+				"line": "Or maybe not.",
+				"isEnd": true
+			},
+
+			"4":
+			{
+				"line": "why did you start the conversation then?",
+				"isEnd": true
+			}
+		}
+	}
+}
